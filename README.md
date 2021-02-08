@@ -3,6 +3,9 @@ This is my first PowerShell script that was created and used by me to help speed
 
 <b>Please note:</b> this script assumes that SMB ver. 2+ is not disabled. For devices requiring SMB ver. 1, you must manually enable it as it comes disabled with Windows by default. ADC techs, please note that the Kyocera printers with 0 series uses SMB ver. 1 for scanning purposes.
 
+## What Does It Do?
+**Elevated permissions needed.
+
 ## Reasons For Creating This Script
 1. <b>Unity</b>: Ensures my colleague and I know exactly where to troubleshoot in case script fails or errors out. I've implemented error outputs in case there is a problem turning on a setting. 
 2. <b>Redundancy</b>: I do this on a normal basis at work. It makes sense to automate possible-scripting tasks to a machine that can do it at a fraction of time.    
