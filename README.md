@@ -15,7 +15,7 @@ This is my first PowerShell script that was created and used by me to help speed
 4. Sets the permission for the Zscan user and adds the ACL rules for the Scans folder. If Scans folder already exists it will re-attempt to add correct permissions. 
 5. Adds the shortcut of the Scans folder to the desktop and pins the Scans folder to the Quick Access toolbar. 
 
-&nbsp; &nbsp; &nbsp; &nbsp; <b>**ADC Techs, if you set this portion manually, please ensure this option is added for our clients - most clients use this and finds it an important feature.</b>
+&nbsp; &nbsp; &nbsp; &nbsp; <b>**ADC Techs, if you set this portion manually, please ensure this option is added for our clients - most clients use this and finds it an &nbsp; &nbsp; &nbsp; important feature.</b>
 
 6. Grabs the current network profile. If current network profile is "Domain", then enable "File and Printer Sharing" at firewall for domain and private network profiles. Also, turn on network discovery for domain and private network profiles. If current network profile is "Private", then do the same for only private network profiles. Else if current network profile is "Public", switch the current network profile to "Private" and enable the correct firewall settings. As a security measure, file and printer sharing, along with network discovery, should not be turned on for the public network profile. 
 
