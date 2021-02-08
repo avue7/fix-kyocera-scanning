@@ -1,7 +1,7 @@
 # Fix Kyocera Scanning
 This is my first PowerShell script that was created and used by me to help speed up the process in setting up a Kyocera printer's scanning option to a local Windows PC or Workstation in the real world. This script may also be use to help setup SMB scanning options for other printers as well. The beauty of this script is that you can always use it to help troubleshoot or "RESET" the correct settings to allow for SMB scanning (ver. 2+), after you have setup a successful connection at the client side. 
 
-<b>Please note:</b> this script assumes that SMB ver. 2+ is not disabled. For devices requiring SMB ver. 1, you must manually enable it as it comes disabled with Windows. ADC techs, please note that the Kyocera printers with 0 series uses SMB ver. 1 for scanning purposes.
+<b>Please note:</b> this script assumes that SMB ver. 2+ is not disabled. For devices requiring SMB ver. 1, you must manually enable it as it comes disabled with Windows by default. ADC techs, please note that the Kyocera printers with 0 series uses SMB ver. 1 for scanning purposes.
 
 ## Reasons For Creating This Script
 1. <b>Unity</b>: Ensures my colleague and I know exactly where to troubleshoot in case script fails or errors out. I've implemented error outputs in case there is a problem turning on a setting. 
