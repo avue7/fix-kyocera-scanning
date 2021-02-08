@@ -3,7 +3,7 @@ This is my first PowerShell script that was created and used by me to help speed
 
 <b>Please note:</b> this script assumes that SMB ver. 2+ is not disabled. For devices requiring SMB ver. 1, you must manually enable it as it comes disabled with Windows by default. Script requires elevated permission. End-user must have admin priviledges or obtain it. 
 
-**ADC techs, please note that the Kyocera printers with 0 series uses SMB ver. 1 for scanning purposes.**
+<b>**ADC techs, please note that the Kyocera printers with 0 series uses SMB ver. 1 for scanning purposes.</b>
 
 ## What Does It Do?
 1. Creates a local user on client's computer called "Zscan" (please note: this value is static and can be changed under global variable <$NewUser> in the script). End-users must set a password in the initial setup. Password will be converted to a secure string. ADC Techs, please ensure you use the uniform scan password unless customer specifies otherwise. 
