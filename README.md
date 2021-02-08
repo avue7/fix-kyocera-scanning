@@ -26,7 +26,7 @@ This is my first PowerShell script that was created and used by me to help speed
 &nbsp; &nbsp; &nbsp; &nbsp; <b>**ADC Techs, please try using the hostname first as IP addresses may change at a later date or due to resets.</b>
 
 ## Reasons For Creating This Script
-1. <b>Unity</b>: Ensures my colleague and I know exactly where to troubleshoot in case script fails or errors out. I've implemented error outputs in case there is a problem turning on a setting. 
+1. <b>Unity</b>: Ensures my colleagues and I setup scanning uniformly so that it will be easier to troubleshoot in the future.  
 2. <b>Redundancy</b>: I do this on a normal basis at work. It makes sense to automate possible-scripting tasks to a machine that can do it at a fraction of time.    
 3. <b>Productivity</b>: The script is small in file size but can do the majority of the heavy lifting on the client's computer. It can be transferred to the client's computer within seconds. This especially helps while on remote with clients.  While on remote, depending on latency and how fast the client's computer is, I can normally setup the client's computer for scanning from the Kyocera printer within 5-15 minutes. This script can do it within seconds. One of my biggest motivation in creating this script is for clients that have a slower computer and internet connection. Setting up scanning for them can now be done at a fraction of time compared to manually setting them up like before.  
 4. <b>Efficiency</b>: This script eliminates human error during setup and troubleshooting. Ever setup something before and it doesn't work? Then you go back and realize you have forgotten to check one box or missed one simple setting? Well, I've ensured that human error does not happen when running the script. 
