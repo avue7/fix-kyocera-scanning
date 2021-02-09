@@ -8,7 +8,7 @@ This is a simple PowerShell script that was created and used by me to help speed
 
 ## What Does It Do:
 1. Creates a local user on client's computer called "Zscan" (please note: this value is static and can be changed under global variable <$NewUser> in the script). End-users must set a password in the initial setup. Password will be converted to a secure string. <img align="center" src="1.JPG" width="800" /></br></br>
-<b>**ADC Techs, please ensure you use the uniform scan password unless the customer specifies otherwise.</b>
+<b>**ADC Techs, please ensure you use the uniform scan password for the particular customer, unless the customer specifies otherwise. "Zscan" is our traditional user. If this account is not there, verify in the address book entry that they are not using another scanner account before proceeding. When in doubt, ask the customer.</b>
 
 2. Once the local user "Zscan" is successfully created, the script will make sure "Zscan's" password never expires and cannot be changed. The account will also never expire. <img align="center" src="2.JPG" width="800" />
 
