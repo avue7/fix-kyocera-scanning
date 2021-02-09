@@ -8,7 +8,7 @@ This is my first simple PowerShell script that was created and used by me to hel
 
 ## What Does It Do:
 1. Creates a local user on client's computer called "Zscan" (please note: this value is static and can be changed under global variable <$NewUser> in the script). End-users must set a password in the initial setup. Password will be converted to a secure string. <img align="center" src="1.JPG" width="800" /></br></br>
-<b>**ADC Techs, please ensure you use the uniform scan password unless customer specifies otherwise.</b>
+<b>**ADC Techs, please ensure you use the uniform scan password unless the customer specifies otherwise.</b>
 
 2. Once the local user "Zscan" is successfully created, the script will make sure "Zscan's" password never expires and cannot be changed. The account will also never expire. <img align="center" src="2.JPG" width="800" />
 3. Checks to see if Scans folder exist in root C drive. If not found, creates one and sets folder as a shared folder. If found, outputs error for "Scans" folder creation and displays the number of items in the folder. <img align="center" src="3.JPG" width="800" />
