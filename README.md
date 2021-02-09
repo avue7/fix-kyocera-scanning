@@ -14,8 +14,7 @@ This is my first simple PowerShell script that was created and used by me to hel
 
 3. Checks to see if Scans folder exist in root C drive. If not found, creates one and sets folder as a shared folder. If found, outputs error for "Scans" folder creation and displays the number of items in the folder. <img align="center" src="3.JPG" width="800" />
 
-4. Sets the permission for the Zscan user and adds the ACL rules for the Scans folder. If Scans folder already exists it will re-attempt to add correct permissions.
-<img align="center" src="4.JPG" width="800" />
+4. Sets the permission for the Zscan user and adds the ACL rules for the Scans folder. If Scans folder already exists it will re-attempt to add the correct permissions for the Zscan user. <img align="center" src="4.JPG" width="800" />
 
 5. Adds the shortcut of the Scans folder to the desktop and pins the Scans folder to the Quick Access toolbar. <img align="center" src="5.JPG" width="800" /></br></br>
 <b>**ADC Techs, if you set this portion manually, please ensure this option is added for our clients - most clients use this and finds it an important feature.</b>
