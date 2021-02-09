@@ -7,7 +7,7 @@ This is my first simple PowerShell script that was created and used by me to hel
 <b>**ADC techs, please note that the Kyocera printers with 0 series uses SMB ver. 1 for scanning purposes.</b>
 
 ## What Does It Do:
-1. Creates a local user on client's computer called "Zscan" (please note: this value is static and can be changed under global variable <$NewUser> in the script). End-users must set a password in the initial setup. Password will be converted to a secure string. <img align="center" src="1.jpg" width="400" /></br></br>
+1. Creates a local user on client's computer called "Zscan" (please note: this value is static and can be changed under global variable <$NewUser> in the script). End-users must set a password in the initial setup. Password will be converted to a secure string. <img align="center" src="1.JPG" width="400" /></br></br>
 <b>**ADC Techs, please ensure you use the uniform scan password unless customer specifies otherwise.</b>
 
 2. Once the local user "Zscan" is successfully created, the script will make sure "Zscan's" password never expires and cannot be changed. The account will also never expire.
