@@ -17,7 +17,7 @@ This is my first simple PowerShell script that was created and used by me to hel
 6. Grabs the current network profile. If current network profile is "Domain", then enable "File and Printer Sharing" at firewall for domain and private network profiles. Also, turn on network discovery for domain and private network profiles. If current network profile is "Private", then do the same for only private network profiles. Else if current network profile is "Public", switch the current network profile to "Private" and enable the correct firewall settings. As a security measure, file and printer sharing, along with network discovery, should not be turned on for the public network profile.</br>
 <b>**ADC Techs, please do not turn on "file and printer sharing" and "network discovery" for public network profiles.</b>
 
-7. Once script tasks are completed, the script will then output within itself the results that is needed to be added to the Kyocera printer's (or any other printer that uses SMB scanning) address book entry.</br></br>
+7. Once script tasks are completed, the script will then output within itself the results that is needed to be added to the Kyocera printer's (or any other printer that uses SMB scanning) address book entry.</br>
 <b>**ADC Techs, please try using the hostname first as IP addresses may change more often; use IP if reserved.</b>
 
 ## How To Use:
