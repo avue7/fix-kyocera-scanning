@@ -25,6 +25,11 @@ This is my first simple PowerShell script that was created and used by me to hel
 
 &nbsp; &nbsp; &nbsp; &nbsp; <b>**ADC Techs, please try using the hostname first as IP addresses may change more often; use IP if reserved.</b>
 
+## How To Use
+1. Download both files: RUN_ME.bat file and SCAN_QUICK_FIX.ps1 into the same directory.
+2. Double-click the RUN_ME.bat file. 
+3. PowerShell script should run, follow thru. 
+
 ## Reasons For Creating This Script
 1. <b>Unity</b>: Ensures my colleagues and I setup scanning uniformly so that it will be easier to troubleshoot in the future.  
 2. <b>Redundancy</b>: I do this on a normal basis at work. It makes sense to automate possible-scripting tasks to a machine that can do it at a fraction of time.    
