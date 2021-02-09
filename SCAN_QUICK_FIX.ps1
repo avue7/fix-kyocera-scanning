@@ -1,9 +1,9 @@
 ﻿# SCAN_QUICK_FIX
 #
 # This is a simple, interactive, powershell script to add the Zscan user that we use for our Kyocera printers. Once Zscan is 
-# created it then attempts to add a new folder called Scans to the C drive root path. If one already exists, the user can 
-# specify a new folder name. After creation of the shared folder, it will then add the neccessary permissions for the local
-# user that has been created.
+# created, it then attempts to add a new folder called Scans to the C drive root path. If one already exists, it will attempt
+# to "reset" the neccessary permissions and options for it. Else, after creation of the shared folder, it will then add the 
+# neccessary permissions for the newly created Zscan user.
 # 
 # By: Athit Vue
 # Date: 11/06/2020
