@@ -4,7 +4,7 @@ This is my first simple PowerShell script that was created and used by me to hel
 <b>Please note:</b> this script assumes that SMB ver. 2+ is not disabled. For devices requiring SMB ver. 1, you must manually enable it as it comes disabled with Windows by default. This script requires elevated permission. The end-user must have admin priviledges or obtain it.
   <b>**ADC techs, please note that the Kyocera printers with 0 series uses SMB ver. 1 for scanning purposes.</b>
 
-## What Does It Do?
+## What Does It Do:
 1. Creates a local user on client's computer called "Zscan" (please note: this value is static and can be changed under global variable <$NewUser> in the script). End-users must set a password in the initial setup. Password will be converted to a secure string.   <b>**ADC Techs, please ensure you use the uniform scan password unless customer specifies otherwise.</b>
 
 2. Once the local user "Zscan" is successfully created, the script will make sure "Zscan's" password never expires and cannot be changed. The account will also never expire.
@@ -16,12 +16,12 @@ This is my first simple PowerShell script that was created and used by me to hel
 
 7. Once script tasks are completed, the script will then output within itself the results that is needed to be added to the Kyocera printer's (or any other printer that uses SMB scanning) address book entry.   <b>**ADC Techs, please try using the hostname first as IP addresses may change more often; use IP if reserved.</b>
 
-## How To Use
+## How To Use:
 1. Download both files: RUN_ME.bat file and SCAN_QUICK_FIX.ps1 into the same directory.
 2. Double-click the RUN_ME.bat file. 
 3. PowerShell script should run, follow thru. 
 
-## Reasons For Creating This Script
+## Reasons For Creating This Script:
 1. <b>Unity</b>: Ensures my colleagues and I setup scanning uniformly so that it will be easier to troubleshoot in the future.  
 2. <b>Redundancy</b>: I do this on a normal basis at work. It makes sense to automate possible-scripting tasks to a machine that can do it at a fraction of time.    
 3. <b>Productivity</b>: The script is small in file size but can do the majority of the heavy lifting on the client's computer. It can be transferred to the client's computer within seconds. This especially helps while on remote with clients.  While on remote, depending on latency and how fast the client's computer is, I can normally setup the client's computer for scanning from the Kyocera printer within 5-15 minutes. This script can do it within seconds. One of my biggest motivation in creating this script is for clients that have a slower computer and internet connection. Setting up scanning for them can now be done at a fraction of time compared to manually setting them up like before.  
