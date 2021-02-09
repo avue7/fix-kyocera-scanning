@@ -23,7 +23,7 @@ This is my first simple PowerShell script that was created and used by me to hel
 
 7. Once script tasks are completed, the script will then output within itself the results that is needed to be added to the Kyocera printer's (or any other printer that uses SMB scanning) address book entry. 
 
-&nbsp; &nbsp; &nbsp; &nbsp; <b>**ADC Techs, please try using the hostname first as IP addresses may change at a later date or due to resets.</b>
+&nbsp; &nbsp; &nbsp; &nbsp; <b>**ADC Techs, please try using the hostname first as IP addresses may change more often; only if IP address of client computer is reserved.</b>
 
 ## Reasons For Creating This Script
 1. <b>Unity</b>: Ensures my colleagues and I setup scanning uniformly so that it will be easier to troubleshoot in the future.  
